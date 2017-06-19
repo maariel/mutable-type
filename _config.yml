@@ -7,6 +7,7 @@ defaults:
   -
     scope:
       path: "" # all files
+      type: "posts"
     values:
       layout: "default"
-      page.history_path: "/commits/master/_posts/"
+      history_path: "/commits/master/_posts/"
