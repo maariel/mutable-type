@@ -11,7 +11,7 @@ title: Home
     </h2>
     {{ post.content }}
     
-    <a href="{{ site.github.repository_url }}/commits/master/_posts/{{ post.date | date: "%Y-%m-%d-"}}{{ post.title | strip | replace:' ','-' | downcase}}.md"> View edits. </a>
+    <a href="{{ site.github.repository_url }}/commits/master/_posts/{{ post.filename }}"> View edits. </a>
     
     <span class="post-date">{{ post.date | date_to_string }}</span>
   </div>
