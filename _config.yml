@@ -10,4 +10,3 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-      page.path: "/commits/master/_posts/"
