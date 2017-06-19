@@ -6,12 +6,12 @@ title: Home
 <div class="posts">
   {% for post in site.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title">
         {{ post.title }}
-    </h1>
+    </h2>
     {{ post.content }}
     
-    <a href="{{ site.github.repository_url }}{{ history_path }}"> View edits. </a>
+    <a href="{{ site.github.repository_url }}{{ page.path }}"> View edits. </a>
     
     <span class="post-date">{{ post.date | date_to_string }}</span>
   </div>
