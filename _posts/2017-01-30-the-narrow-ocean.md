@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: The Narrow Ocean
 filename: 2017-01-30-the-narrow-ocean.md
 ---
