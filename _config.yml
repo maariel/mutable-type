@@ -10,4 +10,4 @@ defaults:
       type: "posts"
     values:
       layout: "default"
-      history_path: "/commits/master/_posts/"
+      page.path: "/commits/master/_posts/"
