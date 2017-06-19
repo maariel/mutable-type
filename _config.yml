@@ -9,4 +9,4 @@ defaults:
       path: "" # all files
     values:
       layout: "default"
-      page.history_path: "/mutable-type/commits/master/_posts/"
+      page.history_path: "/commits/master/_posts/"
