@@ -2,3 +2,11 @@ theme: jekyll-theme-minimal
 
 title: Mutable Type 
 description: A repository of poetry in progress.
+
+defaults:
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+      page.history_path: "/mutable-type/commits/master/_posts/"
