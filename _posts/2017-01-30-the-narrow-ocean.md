@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Narrow Ocean
+filepath: /posts/2017-01-30-the-narrow-ocean.md
 ---
 
 Rain shatters on the pavement gray:  
