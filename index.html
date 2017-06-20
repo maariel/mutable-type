@@ -14,28 +14,13 @@ title: Home
     <a href="{{ site.github.repository_url }}/commits/master/_posts/{{ post.filename }}"> View edits. </a>
     <span class="post-date">{{ post.date | date_to_string }}</span>
   </div>
-    
-  {% if forloop.rindex == 2 %}
-    <a href="{{ post.url }}"> next </a>
-    {% break %}
-  {% endif %}
   
-  {% endfor %}
-</div>
-
-<div class="pagination"><br>
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}"> previous </a>
-  {% else %}
-    <span class="pagination-item older"> previous </span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}"> next </a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}"> next </a>
+  <div class="pagination">
+    {% if forloop.rindex == 1 %}
+      <a href="{{site.github.repository_name}}/{{ post.url }}"> next </a>
+      {% break %}
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer"> next </span>
-  {% endif %}
+
+    {% endfor %}
+  </div>
 </div>
