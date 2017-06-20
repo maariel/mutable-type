@@ -35,12 +35,12 @@
       </header>
       <section>
 	<h2 class="post-title">
-          {{ title }}
+          {{ page.title }}
 	</h2>
           
 	{{ content }}
 	  
-	<a href="{{ site.github.repository_url }}/commits/master/_posts/{{ filename }}"> View edits.</a>
+	<a href="{{ site.github.repository_url }}/commits/master/_posts/{{ page.filename }}"> View edits.</a>
       </section>
       <footer>
         {% if site.github.is_project_page %}
