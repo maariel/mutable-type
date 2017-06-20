@@ -18,6 +18,8 @@ title: Home
   {% if forloop.rindex == 2 %}
     <a href="{{ post.url }}"> next </a>
     {% break %}
+  {% endif %}
+  
   {% endfor %}
 </div>
 
