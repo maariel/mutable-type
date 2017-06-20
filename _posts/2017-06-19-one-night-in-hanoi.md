@@ -1,7 +1,6 @@
 ---
 layout: post
 title: One Night in Hanoi
-date: 2017-06-19 00:00:00
 filename: 2017-06-19-one-night-in-hanoi.md
 ---
 
