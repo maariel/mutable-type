@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
+    <title>{{ site.title | default: site.github.repository_name }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <meta name="viewport" content="width=device-width">
@@ -40,7 +40,7 @@
           
 	{{ content }}
 	  
-	<a href="{{ site.github.repository_url }}/commits/master/_posts/{{ page.filename }}"> View edits.</a>
+	<a href="{{ site.github.repository_url }}/commits/master/_posts/{{ page.filename }}"> Revision history.</a>
 	<span class="post-date"> {{ page.date | date_to_string }}</span>
       </section>
       <footer>
