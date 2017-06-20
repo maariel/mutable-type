@@ -16,7 +16,7 @@ title: Home
   </div>
   
   <div class="pagination">
-    {% if forloop.rindex == 1 %}
+    {% if forloop.index == 1 %}
       <a href="{{site.github.repository_name}}/{{ post.url }}"> next </a>
       {% break %}
     {% endif %}
